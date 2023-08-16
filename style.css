@@ -1,0 +1,371 @@
+:root {
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    ;
+    font-size: 16px;
+    viewport-fit: auto;
+    margin: 0;
+
+}
+
+ol,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+
+}
+
+.main-container {
+    
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    
+
+}
+
+.tax-head {
+    width: 100%;
+    padding: 16px 25%;
+    height: fit-content;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%, rgba(108, 148, 255, .92) 0, rgba(0, 0, 0, .98) 100%);
+    color: white;
+    align-content: center;
+    z-index: 501;
+    position: fixed;
+
+}
+
+.tax-head * {
+    padding-left: 15px;
+    margin: auto;
+    width: fit-content;
+    display: inline;
+}
+
+#t-link {
+    color: #ffffff;
+}
+
+f {
+    font-size: 17px;
+}
+
+/* NAVIGATION BAARR */
+
+.nav {
+    padding-top: 53px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff00;
+
+}
+
+.tesla-logo * {
+     margin-left: 15px; 
+    padding-left: 44px;
+    width: 111px;
+    height: 20px;
+}
+
+.tesla-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav1-models {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style:none;
+    align-items: center;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+    padding-right: 32px;
+    width: 100%;
+    height: 100%;
+}
+
+.list {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+.list:hover{
+    background-color: #64646423;
+    backdrop-filter:blur(180px) ;
+    
+}
+
+.section1 ,.section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9{
+    
+    scroll-snap-align: start;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* CONTENT FOR VIDEO */
+
+.background-video{
+    margin: 0;
+    width: 100%;
+    scroll-snap-align: start;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+
+}
+
+.mid-sec-box{
+    position:relative;
+}
+
+.content1-top{
+    width: 100%; 
+    /* height: 0vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: absolute;
+    scroll-snap-align: start; 
+    top: -550px;
+    z-index: 1000;
+    
+}
+
+.content1{
+    width: 100%; 
+    height: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    scroll-snap-align: start; 
+    top: -100px;
+    z-index: 1000;
+    
+}
+.content1 h1{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+    top: -450px;
+}
+.content1 p{
+    color: #d0d1d2;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 400px;
+    position: relative;
+    top: -450px;
+}
+.content1 a{
+     position: relative; 
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.049);
+    border: 4px solid;
+    color: #ffffff;
+    border-radius: 6px;
+    width: 260px;
+    height: 38px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+     z-index: 13;
+}
+#span{
+    padding: 7px 0;
+    position: relative;
+    z-index: 13; 
+    
+}
+/* CONTENT FOR OTHERS */
+
+.content{
+    padding-top:167px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.content h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.content p2{
+    font-size: 16px;
+    padding-bottom: 400px;
+}
+#links{
+    height: fit-content;
+    width: fit-content;
+    background-color:transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #000000;
+
+}
+#links:hover{
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.content div{
+    width: 29.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.content a{
+    display: flex;
+    background-color: rgba(23, 26, 32, 0.65);
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 6px;
+    width: 264px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+
+}
+#firstbuttons{
+    background-color: #ffffff;
+    color: rgba(23, 26, 32, 0.825);
+}
+#span{
+    
+    padding: 7px 0;
+    
+}
+
+/* CONTENT FOR LAST */
+
+.content-last{
+    padding-top:167px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.content-last h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.content-last p{
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 400px;
+}
+.content-last a{
+    display: flex;
+    background-color: #ffffff;
+    color: rgba(23, 26, 32, 0.825);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    width: 264px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+}
+#span{
+    padding: 7px 0;
+    
+}
+.footer *{
+    border-radius: 4px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.footer .foot-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: transparent;
+    color: #d0d1d2;
+    text-decoration: none;
+
+    
+
+}
+
+.footer li{
+   padding: 50px 14px 0 0;
+   
+}
+.footer .li *:hover{
+    background-color: #ffffff23;
+}
+.cuex{
+    /* position: absolute; */
+    margin-top: 50%;
+    margin-left: 30%;
+
+}
+.cuex .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+}
+.cuex .custom:hover{
+    opacity: 0.8;
+}
+.cuex .custom:active{
+    opacity: 0.2;
+}
+
+.cuex .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+}
+.cuex .existing:hover{
+    opacity: 0.8;
+}
+.cuex .existing:active{
+    opacity: 0.2;
+}
+
+
